@@ -6,7 +6,8 @@
       <class name="Testswaglab.Testcalling">
         <methods>
           <include name="launchbrowser"/>
-          <include name="senddata"/>
+          <include name="closeWindow"/>
+          <include name="senddata" invocation-numbers="0 1 2 3 4 5"/>
         </methods>
       </class> <!-- Testswaglab.Testcalling -->
     </classes>
