@@ -17,7 +17,8 @@ public class Testcalling extends launchSwaglab {
 		swag.clickbtn();
 		Thread.sleep(1000);
        // swag.filter();
-    	swag.Addtocart();	
+    	swag.Addtocart();
+    	swag.bucketFunctionality();
     	swag.log_out();		
 	}
 

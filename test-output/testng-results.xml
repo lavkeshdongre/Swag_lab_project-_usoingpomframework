@@ -1,156 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="3" failed="3" skipped="0">
+<testng-results ignored="0" total="4" passed="0" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-30T12:24:07 IST" name="Default suite" finished-at="2026-10-30T12:25:42 IST" duration-ms="95382">
+  <suite started-at="2026-10-30T21:48:33 IST" name="Default suite" finished-at="2026-10-30T21:49:15 IST" duration-ms="42090">
     <groups>
     </groups>
-    <test started-at="2026-10-30T12:24:07 IST" name="Default test" finished-at="2026-10-30T12:25:42 IST" duration-ms="95382">
-      <class name="Testswaglab.Testcalling">
-        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:Testswaglab.Testcalling@4afcd809]" started-at="2026-10-30T12:24:07 IST" name="launchbrowser" finished-at="2026-10-30T12:24:12 IST" duration-ms="5007" status="PASS">
+    <test started-at="2026-10-30T21:48:33 IST" name="Default test" finished-at="2026-10-30T21:49:15 IST" duration-ms="42090">
+      <class name="Testswaglab.invaliddata_check">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:Testswaglab.invaliddata_check@33d512c1]" started-at="2026-10-30T21:48:33 IST" name="launchbrowser" finished-at="2026-10-30T21:48:36 IST" duration-ms="3074" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method signature="senddata(java.lang.String,java.lang.String)[pri:0, instance:Testswaglab.Testcalling@4afcd809]" started-at="2026-10-30T12:24:12 IST" name="senddata" data-provider="senddata" finished-at="2026-10-30T12:24:18 IST" duration-ms="5844" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- senddata -->
-        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:Testswaglab.Testcalling@4afcd809]" started-at="2026-10-30T12:24:18 IST" name="launchbrowser" finished-at="2026-10-30T12:24:20 IST" duration-ms="2396" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchbrowser -->
-        <test-method signature="senddata(java.lang.String,java.lang.String)[pri:0, instance:Testswaglab.Testcalling@4afcd809]" started-at="2026-10-30T12:24:20 IST" name="senddata" data-provider="senddata" finished-at="2026-10-30T12:24:25 IST" duration-ms="4594" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[problem_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#finish"}
-  (Session info: MicrosoftEdge=156.0.4314.50)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [aeb029ea3537bacf33b951ce19b8dd6b, findElement {value=finish, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 156.0.4314.50, fedcm:accounts: true, goog:processID: 33668, ms:edgeOptions: {debuggerAddress: localhost:52845}, msedge: {msedgedriverVersion: 156.0.4314.56 (09c423bb1897..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52845/devtoo..., se:cdpVersion: 156.0.4314.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: aeb029ea3537bacf33b951ce19b8dd6b]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#finish"}
-  (Session info: MicrosoftEdge=156.0.4314.50)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [aeb029ea3537bacf33b951ce19b8dd6b, findElement {value=finish, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 156.0.4314.50, fedcm:accounts: true, goog:processID: 33668, ms:edgeOptions: {debuggerAddress: localhost:52845}, msedge: {msedgedriverVersion: 156.0.4314.56 (09c423bb1897..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52845/devtoo..., se:cdpVersion: 156.0.4314.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: aeb029ea3537bacf33b951ce19b8dd6b
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
-at PagesScript.SwagwriteScript.Addtocart(SwagwriteScript.java:196)
-at Testswaglab.Testcalling.senddata(Testcalling.java:20)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- senddata -->
-        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:Testswaglab.Testcalling@4afcd809]" started-at="2026-10-30T12:24:25 IST" name="launchbrowser" finished-at="2026-10-30T12:24:27 IST" duration-ms="2463" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchbrowser -->
-        <test-method signature="senddata(java.lang.String,java.lang.String)[pri:0, instance:Testswaglab.Testcalling@4afcd809]" started-at="2026-10-30T12:24:27 IST" name="senddata" data-provider="senddata" finished-at="2026-10-30T12:24:38 IST" duration-ms="10510" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[locked_out_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="invaliddata()[pri:1, instance:Testswaglab.invaliddata_check@33d512c1]" started-at="2026-10-30T21:48:36 IST" name="invaliddata" finished-at="2026-10-30T21:48:46 IST" duration-ms="10572" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.className: title (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 156.0.4314.50, fedcm:accounts: true, goog:processID: 40556, ms:edgeOptions: {debuggerAddress: localhost:51699}, msedge: {msedgedriverVersion: 156.0.4314.56 (09c423bb1897..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51699/devtoo..., se:cdpVersion: 156.0.4314.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1e7ba3a96706f300b280728803e990e4]]>
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 156.0.4314.50, fedcm:accounts: true, goog:processID: 9972, ms:edgeOptions: {debuggerAddress: localhost:55019}, msedge: {msedgedriverVersion: 156.0.4314.56 (09c423bb1897..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55019/devtoo..., se:cdpVersion: 156.0.4314.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 950c29f4c0dc866b377ff70c30300a71]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: title (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 156.0.4314.50, fedcm:accounts: true, goog:processID: 40556, ms:edgeOptions: {debuggerAddress: localhost:51699}, msedge: {msedgedriverVersion: 156.0.4314.56 (09c423bb1897..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51699/devtoo..., se:cdpVersion: 156.0.4314.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1e7ba3a96706f300b280728803e990e4
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 156.0.4314.50, fedcm:accounts: true, goog:processID: 9972, ms:edgeOptions: {debuggerAddress: localhost:55019}, msedge: {msedgedriverVersion: 156.0.4314.56 (09c423bb1897..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55019/devtoo..., se:cdpVersion: 156.0.4314.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 950c29f4c0dc866b377ff70c30300a71
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at PagesScript.SwagwriteScript.clickbtn(SwagwriteScript.java:44)
-at Testswaglab.Testcalling.senddata(Testcalling.java:17)
+at PagesScript.SwagwriteScript.clickbtn(SwagwriteScript.java:45)
+at Testswaglab.invaliddata_check.invaliddata(invaliddata_check.java:16)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -182,66 +63,148 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- senddata -->
-        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:Testswaglab.Testcalling@4afcd809]" started-at="2026-10-30T12:24:38 IST" name="launchbrowser" finished-at="2026-10-30T12:24:41 IST" duration-ms="2845" status="PASS">
+        </test-method> <!-- invaliddata -->
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:Testswaglab.invaliddata_check@33d512c1]" started-at="2026-10-30T21:48:46 IST" name="launchbrowser" finished-at="2026-10-30T21:48:49 IST" duration-ms="2252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method signature="senddata(java.lang.String,java.lang.String)[pri:0, instance:Testswaglab.Testcalling@4afcd809]" started-at="2026-10-30T12:24:41 IST" name="senddata" data-provider="senddata" finished-at="2026-10-30T12:25:27 IST" duration-ms="45688" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[performance_glitch_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- senddata -->
-        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:Testswaglab.Testcalling@4afcd809]" started-at="2026-10-30T12:25:27 IST" name="launchbrowser" finished-at="2026-10-30T12:25:29 IST" duration-ms="2152" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchbrowser -->
-        <test-method signature="senddata(java.lang.String,java.lang.String)[pri:0, instance:Testswaglab.Testcalling@4afcd809]" started-at="2026-10-30T12:25:29 IST" name="senddata" data-provider="senddata" finished-at="2026-10-30T12:25:34 IST" duration-ms="5105" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[error_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="bothinvalid()[pri:2, instance:Testswaglab.invaliddata_check@33d512c1]" started-at="2026-10-30T21:48:49 IST" name="bothinvalid" finished-at="2026-10-30T21:48:59 IST" duration-ms="10537" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#generate\-pdf\-order"}
-  (Session info: MicrosoftEdge=156.0.4314.50)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.className: title (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [4df40e9375e068bf6dbbe87cfb9f4786, findElement {value=generate-pdf-order, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 156.0.4314.50, fedcm:accounts: true, goog:processID: 4392, ms:edgeOptions: {debuggerAddress: localhost:60357}, msedge: {msedgedriverVersion: 156.0.4314.56 (09c423bb1897..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60357/devtoo..., se:cdpVersion: 156.0.4314.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4df40e9375e068bf6dbbe87cfb9f4786]]>
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 156.0.4314.50, fedcm:accounts: true, goog:processID: 3384, ms:edgeOptions: {debuggerAddress: localhost:49815}, msedge: {msedgedriverVersion: 156.0.4314.56 (09c423bb1897..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49815/devtoo..., se:cdpVersion: 156.0.4314.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d43de4e4f4789b62b27310f38ed263]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#generate\-pdf\-order"}
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: title (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 156.0.4314.50, fedcm:accounts: true, goog:processID: 3384, ms:edgeOptions: {debuggerAddress: localhost:49815}, msedge: {msedgedriverVersion: 156.0.4314.56 (09c423bb1897..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49815/devtoo..., se:cdpVersion: 156.0.4314.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d43de4e4f4789b62b27310f38ed263
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at PagesScript.SwagwriteScript.clickbtn(SwagwriteScript.java:45)
+at Testswaglab.invaliddata_check.bothinvalid(invaliddata_check.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bothinvalid -->
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:Testswaglab.invaliddata_check@33d512c1]" started-at="2026-10-30T21:48:59 IST" name="launchbrowser" finished-at="2026-10-30T21:49:01 IST" duration-ms="2175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="singleinvalid()[pri:3, instance:Testswaglab.invaliddata_check@33d512c1]" started-at="2026-10-30T21:49:01 IST" name="singleinvalid" finished-at="2026-10-30T21:49:12 IST" duration-ms="10456" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.className: title (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 156.0.4314.50, fedcm:accounts: true, goog:processID: 25016, ms:edgeOptions: {debuggerAddress: localhost:57573}, msedge: {msedgedriverVersion: 156.0.4314.56 (09c423bb1897..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57573/devtoo..., se:cdpVersion: 156.0.4314.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9586c9bf056f4021a0a8607af6bd107f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: title (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 156.0.4314.50, fedcm:accounts: true, goog:processID: 25016, ms:edgeOptions: {debuggerAddress: localhost:57573}, msedge: {msedgedriverVersion: 156.0.4314.56 (09c423bb1897..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57573/devtoo..., se:cdpVersion: 156.0.4314.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9586c9bf056f4021a0a8607af6bd107f
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at PagesScript.SwagwriteScript.clickbtn(SwagwriteScript.java:45)
+at Testswaglab.invaliddata_check.singleinvalid(invaliddata_check.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleinvalid -->
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:Testswaglab.invaliddata_check@33d512c1]" started-at="2026-10-30T21:49:12 IST" name="launchbrowser" finished-at="2026-10-30T21:49:14 IST" duration-ms="2181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="withoutaddcart()[pri:4, instance:Testswaglab.invaliddata_check@33d512c1]" started-at="2026-10-30T21:49:14 IST" name="withoutaddcart" finished-at="2026-10-30T21:49:15 IST" duration-ms="735" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='shopping_cart_badge']"}
   (Session info: MicrosoftEdge=156.0.4314.50)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [4df40e9375e068bf6dbbe87cfb9f4786, findElement {value=generate-pdf-order, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 156.0.4314.50, fedcm:accounts: true, goog:processID: 4392, ms:edgeOptions: {debuggerAddress: localhost:60357}, msedge: {msedgedriverVersion: 156.0.4314.56 (09c423bb1897..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60357/devtoo..., se:cdpVersion: 156.0.4314.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4df40e9375e068bf6dbbe87cfb9f4786
+Command: [7a3f62477624781aa7db509b5ba5f58a, findElement {using=xpath, value=//span[@class='shopping_cart_badge']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 156.0.4314.50, fedcm:accounts: true, goog:processID: 25460, ms:edgeOptions: {debuggerAddress: localhost:52419}, msedge: {msedgedriverVersion: 156.0.4314.56 (09c423bb1897..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52419/devtoo..., se:cdpVersion: 156.0.4314.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a3f62477624781aa7db509b5ba5f58a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='shopping_cart_badge']"}
+  (Session info: MicrosoftEdge=156.0.4314.50)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7a3f62477624781aa7db509b5ba5f58a, findElement {using=xpath, value=//span[@class='shopping_cart_badge']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 156.0.4314.50, fedcm:accounts: true, goog:processID: 25460, ms:edgeOptions: {debuggerAddress: localhost:52419}, msedge: {msedgedriverVersion: 156.0.4314.56 (09c423bb1897..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52419/devtoo..., se:cdpVersion: 156.0.4314.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a3f62477624781aa7db509b5ba5f58a
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -256,8 +219,8 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
-at PagesScript.SwagwriteScript.Addtocart(SwagwriteScript.java:198)
-at Testswaglab.Testcalling.senddata(Testcalling.java:20)
+at PagesScript.SwagwriteScript.bucketFunctionality(SwagwriteScript.java:165)
+at Testswaglab.invaliddata_check.withoutaddcart(invaliddata_check.java:45)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -289,28 +252,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- senddata -->
-        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:Testswaglab.Testcalling@4afcd809]" started-at="2026-10-30T12:25:34 IST" name="launchbrowser" finished-at="2026-10-30T12:25:36 IST" duration-ms="2637" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchbrowser -->
-        <test-method signature="senddata(java.lang.String,java.lang.String)[pri:0, instance:Testswaglab.Testcalling@4afcd809]" started-at="2026-10-30T12:25:36 IST" name="senddata" data-provider="senddata" finished-at="2026-10-30T12:25:42 IST" duration-ms="6015" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- senddata -->
-      </class> <!-- Testswaglab.Testcalling -->
+        </test-method> <!-- withoutaddcart -->
+      </class> <!-- Testswaglab.invaliddata_check -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

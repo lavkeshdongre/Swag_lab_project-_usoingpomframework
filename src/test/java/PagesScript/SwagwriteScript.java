@@ -109,15 +109,15 @@ public class SwagwriteScript {
 			filter.selectByVisibleText("Name (Z to A)");
 			System.out.println("Second filter applied");
 
-			// Third filter
-			filter.selectByIndex(2);
-			System.out.println("Third filter applied: " +
-			    filter.getFirstSelectedOption().getText());
-
-			// Fourth filter
-			filter.selectByIndex(3);
-			System.out.println("Fourth filter applied: " +
-			    filter.getFirstSelectedOption().getText());
+//			// Third filter
+//			filter.selectByIndex(2);
+//			System.out.println("Third filter applied: " +
+//			    filter.getFirstSelectedOption().getText());
+//
+//			// Fourth filter
+//			filter.selectByIndex(3);
+//			System.out.println("Fourth filter applied: " +
+//			    filter.getFirstSelectedOption().getText());
 
 	}
 	
@@ -150,6 +150,16 @@ public class SwagwriteScript {
 		driver.findElement(By.id("add-to-cart")).click();	
 		System.out.println("6th product add to cart");
 		driver.navigate().back();	
+
+		 
+		
+		
+		
+	   Thread.sleep(1000);
+
+		
+	}
+	public void bucketFunctionality() {
 		
 		//click on bucket button
 		driver.findElement(By.xpath("//span[@class='shopping_cart_badge']")).click();
@@ -173,13 +183,6 @@ public class SwagwriteScript {
 		driver.findElement(By.id("generate-pdf-order")).click();
 		 
 		 driver.findElement(By.id("back-to-products")).click();
-		 
-		
-		
-		
-	   Thread.sleep(1000);
-
-		
 	}
 	
 	public void log_out() {
