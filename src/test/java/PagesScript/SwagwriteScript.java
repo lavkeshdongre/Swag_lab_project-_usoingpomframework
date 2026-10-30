@@ -17,6 +17,7 @@ import Baselaunch.launchSwaglab;
 
 public class SwagwriteScript {
 	
+ 
   public WebDriver driver;
 	
 	public SwagwriteScript(WebDriver driver) {
@@ -94,10 +95,9 @@ public class SwagwriteScript {
 //	}
 	//We handle the Filter option
 	public void filter() throws InterruptedException {
+
 		//chatgpt code
-		WebElement Filters = driver.findElement(
-			    By.className("product_sort_container")
-			);
+		WebElement Filters = driver.findElement(By.className("product_sort_container"));
 
 			Select filter = new Select(Filters);
 
@@ -118,32 +118,7 @@ public class SwagwriteScript {
 			filter.selectByIndex(3);
 			System.out.println("Fourth filter applied: " +
 			    filter.getFirstSelectedOption().getText());
-//		mine code wich is write by me 
-//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-//
-//		wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("title")));
-//
-//		System.out.println("Login successful");
-//		
-//		WebElement Filters = driver.findElement(By.className("product_sort_container"));
-//		Select filter = new Select(Filters);
-//		
-//		filter.selectByVisibleText("Name (A to Z)");
-//		System.out.println("First filter apply");
-//		
-//		Thread.sleep(1000);
-//		
-//		filter.selectByVisibleText("Name (Z to A)");
-//		System.out.println("Second  filter apply");
-//		Thread.sleep(1000);
-//		
-//		filter.selectByVisibleText("Price (low to high)");	
-//		System.out.println("Third filter apply");
-//		Thread.sleep(1000);
-//		
-//		filter.selectByVisibleText("Price (high to low)");;
-//		System.out.println("fourth filter apply");
-//		Thread.sleep(1000);
+
 	}
 	
 	//check Add to cart functionality
