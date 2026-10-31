@@ -3,15 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testswaglab.invaliddata_check">
+      <class name="Testswaglab.Testcalling">
         <methods>
-          <include name="withoutaddcart"/>
           <include name="launchbrowser"/>
-          <include name="invaliddata"/>
-          <include name="singleinvalid"/>
-          <include name="bothinvalid"/>
+          <include name="senddata" invocation-numbers="0"/>
         </methods>
-      </class> <!-- Testswaglab.invaliddata_check -->
+      </class> <!-- Testswaglab.Testcalling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
