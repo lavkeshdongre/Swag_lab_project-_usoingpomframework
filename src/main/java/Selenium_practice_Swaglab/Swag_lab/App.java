@@ -7,5 +7,6 @@ public class App {
     System.out.println("Hello World!");
     
     ChromeDriver driver = new ChromeDriver();
+    driver.get("https://github.com/");;
   }
 }
