@@ -12,11 +12,15 @@ public class Testcalling extends launchSwaglab {
 	@Test(dataProvider = "senddata")
 	public void senddata(String suname ,String spass) throws InterruptedException {
 		swag = new SwagwriteScript(driver);
+		
+		//username pass in the feild of the user name feild
 		swag.username(suname);
+		//send the feild to the oass 
 		swag.password(spass);
+		//click on the login data 
 		swag.clickbtn();
 		Thread.sleep(1000);
-       // swag.filter();
+        swag.filter();
     	swag.Addtocart();
     	swag.bucketFunctionality();
     	swag.log_out();		
